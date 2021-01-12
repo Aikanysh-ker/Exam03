@@ -1,0 +1,17 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.header{
+    background: #19849B;
+}
+.header__title {
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:#ffffff;
+  padding-top:12px;
+  padding-bottom: 12px;
+  text-align: center;
+}

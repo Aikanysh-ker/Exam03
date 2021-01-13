@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -21,8 +22,95 @@
     <header class="header">
       <h1 class="header__title">Lucas Montana</h1>
     </header>
-    <section class="hero"></section>
-    <section class="portfolio"></section>
+    <section class="hero container">
+      <img class="hero__img" src="images/hero-img.png" alt="My photo" />
+      <div class="hero__text">
+        <h2 class="hero__text-title">
+          Hey. I'm Lucas And I'm a professional photographer
+        </h2>
+        <h3 class="hero__text-heading">
+          Curabitur blanit tempus porttitor. Vollis ac inceptos mollisestor
+          commodo luctus.
+        </h3>
+        <p class="hero__text-description">
+          Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor
+          commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus,
+          porta ac consectetur ac, vestibulum at eros. Vestibulum id ligulas
+          semper. Cum sociis natoque penatibus et magnis maecenas. Donec
+          ullamcorper nulla non metus auctor fringilla.
+        </p>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary btn-primary_trigger"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Contact me
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Contact me</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p class="modal-body-text">
+                  Curabitur blandit tempus porttitor. Vollis ac inceptos
+                  mollisestor commodo luctus. Curabitur blandit tempus
+                  porttitor. Morbi leo risus, porta ac consectetur ac,
+                  vestibulum at eros.
+                </p>
+                <form class="modal__form">
+                  <input
+                    class="modal__form-name"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your name..."
+                  />
+                  <input
+                    class="modal__form-email"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your email..."
+                  />
+                  <textarea
+                    class="modal__form-message"
+                    name="message"
+                    id="message"
+                    cols="45"
+                    rows="10"
+                  >Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabitur blandit. Morbi leo risus, porta ac consectetur ac, at eros.</textarea
+                  >
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">
+                  send message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio container"></section>
     <footer class="footer"></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

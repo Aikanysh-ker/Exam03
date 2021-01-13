@@ -1,8 +1,10 @@
 body {
   font-family: "Ubuntu", sans-serif;
+  background: #272a2f;
 }
-.header{
-    background: #19849B;
+/* header */
+.header {
+  background: #19849b;
 }
 .header__title {
   font-size: 30px;
@@ -10,8 +12,100 @@ body {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   font-weight: 700;
-  color:#ffffff;
-  padding-top:12px;
+  color: #ffffff;
+  padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
+}
+/* hero */
+
+.hero {
+  margin-top: 51px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+}
+.hero__img {
+  width: 411px;
+  height: 355px;
+}
+.hero__text {
+  width: 559px;
+}
+.hero__text-title {
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.hero__text-heading {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.hero__text-description {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  color: #ffffff;
+}
+.modal-content {
+  background: #272a2f;
+}
+.modal-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.modal-body-text {
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  color: #ffffff;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer {
+  display: block;
+  border-top: none;
+}
+.modal__form-name,
+.modal__form-email {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #8ea5ac;
+  background: #324b53;
+}
+.modal__form-message {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  background: #324b53;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 16px 22px;
+}
+.btn-primary {
+  background: none;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 0;
+  padding: 15px 31px;
+}
+.btn-primary_trigger{
+  padding: 14px 86px;
 }

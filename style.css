@@ -65,7 +65,7 @@ body {
   letter-spacing: 0.01em;
   color: #ffffff;
 }
-.modal-body-text {
+.text {
   font-size: 16px;
   letter-spacing: 0.01em;
   font-weight: 400;
@@ -106,6 +106,22 @@ body {
   border-radius: 0;
   padding: 15px 31px;
 }
-.btn-primary_trigger{
+.btn-primary_trigger {
   padding: 14px 86px;
+}
+/* portfolio */
+.col{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  gap: 20.35px;
+  flex-wrap: nowrap;
+  margin-bottom: 20.35px;
+}
+.portfolio__title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #ffffff;
 }
